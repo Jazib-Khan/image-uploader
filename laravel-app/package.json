@@ -14,5 +14,10 @@
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
         "vite": "^6.0"
+    },
+    "dependencies": {
+        "filepond": "^4.32.6",
+        "filepond-plugin-file-validate-type": "^1.2.9",
+        "vue-filepond": "^7.0.4"
     }
 }

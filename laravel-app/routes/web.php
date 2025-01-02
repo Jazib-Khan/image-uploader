@@ -7,4 +7,4 @@ Route::get('/', [ImageController::class, 'index']);
 
 Route::get('/images', [ImageController::class, 'show']);
 
-Route::get('/upload', [ImageController::class, 'store']);
+Route::post('/upload', [ImageController::class, 'store']);
